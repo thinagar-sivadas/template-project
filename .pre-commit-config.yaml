@@ -38,11 +38,6 @@ repos:
       - id: mypy
         args:
           - "--explicit-package-bases"
-        # - "--follow-imports=silent"
-        # - "--ignore-missing-imports"
-        # - "--show-column-numbers"
-        # - "--no-pretty"
-        # - "--check-untyped-defs"
   - repo: local
     hooks:
       - id: pylint

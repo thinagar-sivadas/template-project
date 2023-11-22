@@ -9,6 +9,5 @@ services:
       - -c
       - |
         pip install -e .
-        while sleep 1000; do :; done
     volumes:
       - .:/app:cached

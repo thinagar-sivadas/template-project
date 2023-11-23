@@ -9,6 +9,8 @@
         "bash",
         "-c",
         "pip install -e .[dev]",
+        "bash",
+        "-c",
         "pre-commit install"
     ],
     "customizations": {

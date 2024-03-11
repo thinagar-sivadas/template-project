@@ -36,7 +36,3 @@ max-line-length = 120
 
 [tool.black]
 line-length = 120
-
-[tool.mypy]
-explicit_package_bases = true
-check_untyped_defs = true
